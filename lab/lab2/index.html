@@ -16,10 +16,32 @@
         <div class="container-fluid">
           <div class="navbar-header">
             <a class="navbar-brand" href="#">Manufacturers</a>
+            <div class="dropdown">
+              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                Add New
+                <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenu">
+                <li><a href="#">View History</a></li>
+                <li><a href="#">Email All Manufacturers</a></li>
+              </ul>
+            </div>
           </div>
           <ul class="nav navbar-nav navbar-right">
-          <!-- ... -->
           </ul>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="input-group">
+              <input type="text" class="form-control">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button">
+                  <span class="glyphicon glyphicon-search" aria-hidden="true">
+                  </span>
+                </button>
+              </span>
+            </div>
+          </div>
         </div>
       </nav>
       <div class="item">
